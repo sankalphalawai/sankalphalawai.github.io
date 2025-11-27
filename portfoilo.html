@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankalp's Portfoli</title>
+    <link rel="stylesheet" href="#" id="css-link">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <!-- Particle Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 style="color:rgb(142, 142, 246) ;">Sankalp Halawai.</h1>
+            <h2>Creative Full-Stack Developer | Java Developer | MySQL </h2>
+            <p>Crafting digital experiences with modern technologies and innovative design. Passionate about creating
+                beautiful, functional, and user-centric applications.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+     <section id="about" class="section about-section">
+        <h2 class="section-title fade-in">About Me</h2>
+
+        <div class="about-container fade-in">
+            <div class="about-image">
+                <img src="s1.png" alt="Sankalp Halawai">
+            </div>
+
+            <div class="about-info">
+                <p style="font-size: 1.2rem; max-width: 800px; line-height: 1.8;">
+                    I'm a passionate full-stack developer with 1 year of experience creating innovative web applications.
+                    I am specialized in modern Java (SpringBoot, JDBC, Hibernate) frameworks, responsive design, and creating seamless user experiences.
+                    My goal is to bridge the gap between design and functionality, creating digital solutions that not only
+                    look amazing but also solve real-world problems.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title fade-in">Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <p>Responsive Design, HTML5, CSS3, JavaScript, Tailwind CSS</p>
+            </div>
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <p>Java, MySQL, JDBC, Hibernate, SpringBoot, RESTful APIs</p>
+            </div>
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fa-solid fa-computer"></i>
+                </div>
+                <h3>Development Tools</h3>
+                <p>Visual Studio Code, Sublime Text, Eclipse, IntelliJ IDEA, MySQL Workbench.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title fade-in">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <i class="fa-solid fa-bone" style="color: #fcfcfd;"></i>
+                </div>
+                <h3>Automatic Segmentation of Meniscus and Tear Detection (MRI Images) </h3>
+                <p>Designed a deep learning model to detect knee meniscus tears from MRI scans. Automatic image
+                    preprocessing, segmentation with Nested U-Net + Attention, classification using
+                    CNN-GRU, and accuracy evaluation</p>
+                <div style="margin-top: 20px;">
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; margin-right: 8px; font-size: 0.85rem; color: var(--primary-color); border: 1px solid var(--primary-color);">Python</span>
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; margin-right: 8px; font-size: 0.85rem; color: var(--secondary-color); border: 1px solid var(--secondary-color);">OpenCV</span>
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; color: var(--accent-color); border: 1px solid var(--accent-color);">NumPy</span><br><br>
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; color: var(--accent-color); border: 1px solid var(--accent-color);">TensorFlow</span>
+                </div><br>
+                <div class="project-links">
+
+                    <a href="https://github.com/sankalphalawai/Meniscus_Tear_Detection" class="project-link"><i
+                            class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <i class="fa-solid fa-glass-water-droplet" style="color: #ffffff;"></i>
+                </div>
+                <h3>Web-based Water Supply Mapping Tool (SIH-1432)</h3>
+                <p>Developed an interactive tool to map and monitor water supply systems. Tnteractive maps, grievance
+                    submission, alert monitoring, and supply status tracking.</p>
+                <div style="margin-top: 20px;">
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; margin-right: 8px; font-size: 0.85rem; color: var(--primary-color); border: 1px solid var(--primary-color);">HTML</span>
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; margin-right: 8px; font-size: 0.85rem; color: var(--secondary-color); border: 1px solid var(--secondary-color);">CSS</span>
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; color: var(--accent-color); border: 1px solid var(--accent-color);">JavaScript</span>
+                </div><br>
+                <div class="project-links">
+
+                    <a href="https://github.com/sankalphalawai/Water_supply_mapping_system" class="project-link"><i
+                            class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-image">
+                    <i class="fa-solid fa-hospital-user" style="color: #ffffff;"></i>
+                </div>
+                <h3>Hospital Management System</h3>
+                <p>Built a web-based system to manage patient details, doctor appointments, and hospital records. Added
+                    features like patient registration, appointment booking, billing, and report generation.</p>
+                <div style="margin-top: 20px;">
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; margin-right: 8px; font-size: 0.85rem; color: var(--primary-color); border: 1px solid var(--primary-color);">HTML</span>
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; margin-right: 8px; font-size: 0.85rem; color: var(--secondary-color); border: 1px solid var(--secondary-color);">CSS</span>
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; color: var(--accent-color); border: 1px solid var(--accent-color);">JavaScript</span>
+
+                    <span
+                        style="background: var(--ios-bg-tertiary); padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; color: var(--accent-color); border: 1px solid var(--accent-color);">PHP</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title fade-in">Get In Touch</h2>
+        <div class="contact-form fade-in">
+            <form id="contact-form" action="https://formspree.io/f/xeorjqvq" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://github.com/sankalphalawai"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sankalp-halawai-544125311/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/sankalp_h18?utm_source=qr&igsh=dnk4Z2duZG8xam1j"><i
+                    class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+            <a href="sankalp.halawai@gmail.com"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a>
+        </div>
+        <p>&copy; 2025 Sankalp. All rights reserved.</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</body>
+
+</html>
